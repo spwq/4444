@@ -11,7 +11,7 @@ import os
 api_id = int(os.getenv("API_ID", "88888888"))       # حط API_ID مالك
 api_hash = os.getenv("API_HASH", "API_HASH_HERE")  # حط API_HASH مالك
 group_link = os.getenv("GROUP_LINK", "@YourGroup") # حط رابط القروب
-session_string = os.getenv("SESSION_STRING", "1AZWarzUBu34yF2cXojaZKeKsN-...RLOxclM=")  # سيشنك الطويل
+session_string = os.getenv("SESSION_STRING", "1AZWarzUBu3zwDzXHsxCzWw7heXQh2ETFV46B2Qk5ZB01CHee9R-Vgg6q8wz8gW4Ct9ettnOVnQkIM-ay9VqgJDpF-437g362odwSiIjBd1LDkWfDkj3scysA4GvMfJ49qwFIj5h4QCB7VAmPGQfdQOKNEcj_JzHVvEcISoLPVB21fKXfCAkG6P1NG_7KmSH13cAPu30WvpQqwzTxGa5CdtpiZ1G5th8WwIz9rIIpkjdJUQUSDXM42998XKbiZnhWkkZBESpIGFk3qyfcS7o9Imshy73GB46UgwiOq9oDCCjss8hKqRVUoDB1vRGL20sVOKoAoFsA9ZgugOvakb9_BOyteY-Jno8=")  # سيشنك الطويل
 
 # =========================
 # إنشاء Telethon Client
@@ -49,3 +49,4 @@ Thread(target=run_flask).start()
 # تشغيل البوت
 # =========================
 asyncio.run(main_bot())
+
